@@ -1,0 +1,25 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <br>
+            <center><h1>Acccuracy of our Models</h1></center>
+            <div class="card card-body" style="border: 1px solid black;">
+                <ul>
+                    <li>Diabetes Model has an accuracy of <strong>98.25%</strong></li>
+                    <li>Breast Cancer Model has an accuracy of <strong>98.25%</strong></li> 
+                    <li>Heart Disease Model has an accuracy of <strong>85.25%</strong></li>
+                    <li>Kidney Disease Model has an accuracy of <strong>99%</strong></li>
+                    <li>Liver Disease Model has an accuracy of <strong>78%</strong></li> 
+                    <li>Malaria Model has an accuracy of <strong>96%</strong></li>
+                    <li>Pneumonia Model has an accuracy of <strong>95%</strong></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+{% endblock %}

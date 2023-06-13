@@ -1,0 +1,29 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+    <body>
+        <br>
+        <br>
+        
+        <h1>Sign Up only for Doctors!</h1>
+        <br>
+        
+        <form action="/signup" method="POST">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+          
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required><br><br>
+          
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required><br><br>
+          
+          <label for="confirm_password">Confirm Password:</label>
+          <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+          
+          <button type="submit">Sign Up</button>
+        </form>
+      </body>
+{% endblock %}
