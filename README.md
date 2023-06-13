@@ -5,7 +5,7 @@ Patients often take tests at home or in laboratories and have to wait for the do
 
 **Steps to Install:**
 
-1. Clone or download the repo.
+1. Clone or download the repository.
    
 2. Open the command prompt in the downloaded folder.
    
