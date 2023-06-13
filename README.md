@@ -24,6 +24,8 @@ Overall, a multiple disease predictor project aims to develop a machine-learning
 ●	To reduce the time and cost associated with traditional diagnostic methods, making healthcare more accessible to individuals in need.
 
 Results:
+
+
 ![image](https://github.com/aaronfernandes4/MedBay/assets/86305002/ec43079c-7536-45e0-a24d-cbd325750808)
 ![image](https://github.com/aaronfernandes4/MedBay/assets/86305002/e0f00544-dbb5-480c-a32b-b9a533c910a6)
 ![image](https://github.com/aaronfernandes4/MedBay/assets/86305002/1911aaae-f4ad-4fad-a986-78939c4a11f4)
